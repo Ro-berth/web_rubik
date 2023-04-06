@@ -1,0 +1,42 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.meu-secundario {
+    width: 100%;
+    background-color: hsl(0, 0%, 100%);
+    height: 80px;
+}
+main {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;    
+}
+.logo {
+    float: left;
+    padding: 17px;
+    width: 50%;
+}
+.redes-sociais ul li{
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+    float: left;
+
+}
+.redes-sociais {
+    width: 17%;
+    float: right;
+    padding: 6px;
+}
+.tamahlogoredsc {
+    width: 25px;
+    height: auto;
+}
+.header-2{
+    background-color: aqua;
+    width: 100%;
+    border-bottom: 3px solid red;
+}
