@@ -38,5 +38,74 @@ main {
 .header-2{
     background-color: aqua;
     width: 100%;
-    border-bottom: 3px solid red;
+    border-bottom: 6px solid red;
+}
+/* questionario */
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+.question {
+	display: none;
+	margin-top: 30px;
+}
+
+.question.active {
+	display: block;
+}
+
+.question-text {
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #333;
+}
+
+input[type="text"], label {
+	display: block;
+	margin-top: 10px;
+	font-size: 1.2em;
+	color: #333;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+	width: 100%;
+}
+
+label {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+button[type="button"], button[type="submit"] {
+	display: block;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+button[type="button"]:hover, button[type="submit"]:hover {
+	background-color: #555;
 }
