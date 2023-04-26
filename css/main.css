@@ -4,7 +4,7 @@ body {
     height: 100%;
     margin: 0 auto;
 }
-.meu-secundario {
+.menu-secundario {
     width: 100%;
     background-color: hsl(0, 0%, 100%);
     height: 80px;
@@ -18,6 +18,7 @@ main {
     float: left;
     padding: 17px;
     width: 50%;
+	padding-left: 50px
 }
 .redes-sociais ul li{
     margin-left: 15px;
